@@ -1,0 +1,15 @@
+// variavel = valor do post ?? se este post não existir indicar o valor padrão
+// ?? = if ternario simplificado
+// $nome = $_POST["nome"] ?? "";
+// mesmo código que o de cima.
+// isset = verifica se um objeto existe
+// ? = resposta verdadeira se o objeto existe
+// : = resposta falsa, objeto não existe
+// $nome = isset($_POST["nome"]) ? $_POST["nome"] : "";
+// if (isset($_POST["nome"])) {
+//     // . é o caracter de concatenação
+//     $nome = "Olá " . $_POST["nome"];
+// } else {
+//     $nome = "";
+// }
+// echo ($nome);
