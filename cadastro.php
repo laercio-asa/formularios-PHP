@@ -55,15 +55,6 @@ if (isset($_GET["id"])) {
 
 
 
-
-
-
-
-
-
-
-
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // variavel = POST ?? Se o POST não existir o valor será ""
     $nome = $_POST["nome"] ?? "";
